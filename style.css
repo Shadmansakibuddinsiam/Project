@@ -57,3 +57,61 @@ nav {
   nav ul li:hover ul {
     display:block;
   }
+
+  .search-container{
+    width: 300px;
+    height: 55px;
+    display: inline-block;
+    margin: 0 auto;
+    
+  }
+  
+  input#search-bar{
+    margin: 0 auto;
+    width: 100%;
+    height: 45px;
+    padding: 0 20px;
+    font-size: 1rem;
+    border: 1px solid #D0CFCE;
+    outline: none;
+  
+   }
+  
+  .search-icon{
+    position: relative;
+    background-color: white;
+    background-size:0%;
+    background-position: 0%;
+    float: right;
+    width: 45px;
+    height: 45px;
+    top: -46.5px;
+    right: -40px;
+  } 
+
+  .fa {
+    padding: 20px;
+    font-size: 50px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
